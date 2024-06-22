@@ -56,8 +56,6 @@ extern "C" {
     emscripten::val createUsers(emscripten::val userArray) {
         std::vector<User> result;
         const int length = userArray["length"].as<int>();
-        const emscripten::val doc = emscripten::val::global("document");
-        emscripten::val::global("console").call<void>("log", doc);
         for (int i = 0; i < length; i++) {
             User newUser;
             const std::string uuid = generateUUID();
