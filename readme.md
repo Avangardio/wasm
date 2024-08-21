@@ -1,4 +1,4 @@
-<img src="(https://img001.prntscr.com/file/img001/YyXiifWfQqyL1P0Tico44Q.png"/>
+<img src="https://img001.prntscr.com/file/img001/YyXiifWfQqyL1P0Tico44Q.png"/>
 Статья про WASM с С++
 Ссылка на статью: <a href="https://habr.com/ru/articles/837692/">Habr<a/>.
 Установка и запуск:
