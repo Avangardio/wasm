@@ -23,15 +23,6 @@ int sumArray(int array[], int length) {
     return sum;
 }
 
-EXTERN EMSCRIPTEN_KEEPALIVE
-int* arrayToDoubledVector(int array[], int length) {
-    std::vector<int> newArray(array, array + length);
-    for (int item : newArray) {
-        item *= 2;
-    }
-    return newArray.data();
-}
-
 EXTERN struct Person {
     const char* name;
     int age;

@@ -1,7 +1,10 @@
 import {ModuleNative} from "../../types";
 import {allocateString} from "../../misc/allocateString";
 
-interface People {age: number, name: string}
+interface People {
+    age: number,
+    name: string
+}
 
 /**
  * Функция-пример для получения самого старого сотрудника
@@ -12,10 +15,10 @@ export function getTheOldestPersonExample(module: ModuleNative): void {
 
     // Создать массив объектов
     const people: People[] = [
-        { name: 'Alice', age: 30 },
-        { name: 'Bob', age: 45 },
-        { name: 'Charlie', age: 35 },
-        { name: 'Shakira', age: 20 }
+        {name: 'Alice', age: 30},
+        {name: 'Bob', age: 45},
+        {name: 'Charlie', age: 35},
+        {name: 'Shakira', age: 20}
     ];
 
 

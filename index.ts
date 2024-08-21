@@ -1,4 +1,3 @@
-// index.ts
 import { readFileSync } from 'fs';
 import { join } from 'node:path';
 

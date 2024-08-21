@@ -4,7 +4,6 @@
   "description": "",
   "main": "dist/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
     "start": "tsc && node dist/index.js",
     "build wasm": "npm run wasm_native && npm run wasm_binded",
     "wasm_native": "emcc src/wasm/native.example.cpp -o build/native.example.js -s EXPORTED_FUNCTIONS=\"[\"_malloc\", \"_free\"]\" -s EXPORTED_RUNTIME_METHODS=\"[\"lengthBytesUTF8\", \"stringToUTF8\", \"setValue\", \"getValue\", \"UTF8ToString\"]\" -s MODULARIZE -s ENVIRONMENT='node' -Oz",

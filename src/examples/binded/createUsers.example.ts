@@ -1,5 +1,4 @@
-import {ModuleBinded, ModuleNative} from "../../types";
-import {allocateString} from "../../misc/allocateString";
+import {ModuleBinded} from "../../types";
 
 export interface User {
     name: string;
