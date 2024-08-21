@@ -1,6 +1,6 @@
 <img src="https://prnt.sc/4wsmRDmjWJtz"/>
 Статья про WASM с С++
-Ссылка на статью: <a href="ссылка">Habr<a/>.
+Ссылка на статью: <a href="https://habr.com/ru/articles/837692/">Habr<a/>.
 Установка и запуск:
 <li>
 <a href="https://emscripten.org/docs/getting_started/downloads.html">Ссылка на установку<a/>
